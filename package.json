@@ -4,9 +4,24 @@
     "description": "Mi aplicación Node.js",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "test": "jest"
+    },
+    "jest": {
+        "testEnvironment": "node"
     },
     "dependencies": {
-      "express": "^4.18.2"
-    }
-  }
+        "express": "^4.21.2",
+        "jest": "^30.0.5",
+        "supertest": "^7.1.4"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://e1316837028@dev.azure.com/e1316837028/practica-despliegue2/_git/practica-despliegue2"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
